@@ -1,0 +1,26 @@
+{
+	"name": "Wallet Watcher",
+	"description": "Watch your ETH wallet to see if you have anything new!",
+	"version": "0.1",
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": ["storage", "scripting", "notifications"],
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "/images/wallet16.png",
+			"32": "/images/wallet32.png",
+			"48": "/images/wallet48.png",
+			"128": "/images/wallet128.png"
+		}
+	},
+	"icons": {
+		"16": "/images/wallet16.png",
+		"32": "/images/wallet32.png",
+		"48": "/images/wallet48.png",
+		"128": "/images/wallet128.png"
+	},
+	"options_page": "options.html"
+}
